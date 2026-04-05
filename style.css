@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+aside {
+    position: fixed;
+    top: 800px; 
+}
+
+aside p {
+    color: purple;
+}
+
+aside img {
+    border: 2px solid blue;
+    border-radius: 10px; 
+}
+
+.phone {
+    position: relative;
+}
+
+.phone h2::before {
+    content:url("https://drive.google.com/file/d/1qkVbztvWDsTMdZ3QWQyp-p3YI85M6KSH/view?usp=drive_link");
+}
+
+h1::after {
+    content: url("https://u.livelib.ru/reader/Aleni11/o/w10rpo1q/o-o.jpeg");
+    width: 50px;
+    height: 50px;
+}
+
+
+h1::before {
+    content: url("https://u.livelib.ru/reader/Aleni11/o/w10rpo1q/o-o.jpeg");
+}
+
+.address::before {
+    content: url("https://img.freepik.com/free-vector/house-front-facade_24908-81906.jpg?semt=ais_hybrid&w=740&q=80");
+    width: 30px;
+    height: 30px;
+}
+
+.tel::before {
+    content: url("https://www.svgrepo.com/show/356255/phone.svg");
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.button:hover {
+    color: red;
+    background-color: purple;
+}
